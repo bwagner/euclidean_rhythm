@@ -11,7 +11,7 @@ from bjorklund import bjorklund, bjorklund2str, str2bjorklund
         (1, 3, "[x . .]"),
         (1, 4, "[x . . . ]"),
         (4, 12, "[x . . x . . x . . x . .]"),
-        (2, 3, [1, 1, 0]),  # but Toussaint says  "[x . x]"
+        (2, 3, [1, 1, 0]),  # but Toussaint says  1 0 1
         (2, 5, "[x . x . .]"),
         (3, 4, [1, 1, 1, 0]),  # but Toussaint says 1 0 1 1
         (3, 5, "[x . x . x]"),
