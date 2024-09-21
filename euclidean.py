@@ -2,13 +2,16 @@
 
 import sys
 
+"""
+Unused for bjorklund. Just for showing the sequence
+of remainders when performing Euclid's algorithm.
+"""
+
 
 def euclid_seq(n, k, s=None):
     if s is None:
         s = []
-    if k == 0:
-        return s[1:]  # we don't want the first which is always n
-    return euclid_seq(k, n % k, s + [k])
+    return s[1:] if k == 0 else euclid_seq(k, n % k, s + [k])
 
 
 def main():
