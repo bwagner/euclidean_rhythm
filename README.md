@@ -28,8 +28,9 @@ produces:
 [ x . . x . . x . ]
 ```
 
-There's also a script `euclidean.py` which merely produces the sequence of remainders when performing
-[Euclid's Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+There's also a script [euclidean.py](euclidean.py), which merely produces the sequence of remainders when performing
+[Euclid's Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm). This script is not used for the bjorklund
+algorithm.
 
 # Contribute
 ```console
