@@ -86,3 +86,7 @@ def test_exception():
     with pytest.raises(TypeError) as e:
         bjorklund(2, 1)
     assert "k (2) must be < n (1)" in str(e.value)
+
+
+def test_exception2():
+    assert bjorklund(2, 2) == [1, 1]
