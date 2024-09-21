@@ -10,6 +10,7 @@ In his rendering the one rest is indiscriminately at the 2nd position,
 while the algorithm always places the one rest at the end of the pattern.
 So the difference in these cases merely consists of the necklace rotated
 by two positions to the left.
+(see [test.py](test.py))
 
 # Usage
 
